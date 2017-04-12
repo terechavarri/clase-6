@@ -1,0 +1,62 @@
+/* Acá pondré mis ajustes */
+body{padding-top:50px;
+background: -moz-linear-gradient(left, rgb(30, 29, 29) 0%, rgb(48, 46, 46) 100%);}
+
+
+
+:hover{
+-webkit-transition: color 0.5s ease-in-out;
+-moz-transition: color 0.5s ease-in-out;
+-o-transition: color 0.5s ease-in-out;
+transition: color 0.5s ease-in-out;
+}
+
+
+header{padding:2em 0;}
+header h1{font-family: 'Creepster', cursive;font-weight:600;}
+header h2{font-weight:300;}
+
+article{padding-bottom:1.5em;}
+article h5 {padding-bottom:1em;}
+article h5 a{padding-right:1em;}
+article figure{
+  margin-right:4em;
+  margin-bottom:1em;
+  margin-top:0.25em;
+  float:left;
+  width:80%;
+  height:auto;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+article figure{width:100%; padding-right:2; clear:both;}
+}
+article figure img{width:100%; height:auto;}
+  article:hover
+    figure img{
+      filter:grayscale(0);
+    }
+
+aside{padding-top:0.5em;}
+
+aside figure{
+  margin-right:4em;
+  margin-bottom:1em;
+  margin-top:0.25em;
+  float:left;
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+
+
+aside h3{
+  font-family: 'Stardos Stencil', cursive;
+  color:rgba(100,100,100,1);
+  font-size:1.25em;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+footer{border-top:1px solid silver; padding:1em 0; margin:3em 0 0 0;}
